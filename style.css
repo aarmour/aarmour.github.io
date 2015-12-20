@@ -7,12 +7,22 @@
 }
 
 html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
   font-size: 16px;
   line-height: 1.2;
 }
 
 body {
-  max-width: 960px;
+  width: 960px;
   margin: auto;
   padding: 30px 35px;
   background: #fdfdfd;
